@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutorService;
  */
 public class App 
 {
-    private static String connString = "HostName=adojeiothub.azure-devices.net;DeviceId=myFirstJavaDevice;SharedAccessKey=YXceGcXGCEXjPaTMD6Wxxg==";
+    private static String connString = "HostName=adojeiothub.azure-devices.net;DeviceId=myFirstJavaDevice;SharedAccessKey=83Gfbj8wfjsErg+2Fihv5gLuEFHz4YX8pT0wsoZNGn4=";
     private static IotHubClientProtocol protocol = IotHubClientProtocol.MQTT;
     private static String deviceId = "myFirstJavaDevice";
     private static DeviceClient client;

@@ -16,13 +16,13 @@ import java.util.logging.*;
  * Hello world!
  *
 
-Device ID: 
+Device ID: myFirstJavaDevice
 Device key: YXceGcXGCEXjPaTMD6Wxxg==
 
  */
 public class App 
 {
-    private static String connStr = "Endpoint=adojeiothub.azure-devices.net;EntityPath=myFirstJavaDevice;SharedAccessKeyName=iothubowner;SharedAccessKey=YXceGcXGCEXjPaTMD6Wxxg==";
+    private static String connStr = "Endpoint=sb://ihsuprodblres007dednamespace.servicebus.windows.net/;EntityPath=iothub-ehub-adojeiothu-102512-30eae7898b;SharedAccessKeyName=iothubowner;SharedAccessKey=83Gfbj8wfjsErg+2Fihv5gLuEFHz4YX8pT0wsoZNGn4=";
     
     public static void main( String[] args ) throws IOException
     {
